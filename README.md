@@ -69,6 +69,12 @@ var result = dbContext.Cities
       "field": "Name",
       "operator": "Contains",
       "value": "tash"
+    },
+    {
+      "field": "Region.Name",
+      "value": "SAM",
+      "operator": "Contains",
+      "logic": "Or"
     }
   ],
   "sorts": [
