@@ -67,7 +67,7 @@ var result = dbContext.Cities
   "filters": [
     {
       "field": "Name",
-      "operator": 6,
+      "operator": "Contains",
       "value": "tash"
     }
   ],
