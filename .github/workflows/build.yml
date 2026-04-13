@@ -24,10 +24,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build
-        run: dotnet build --no-restore
+        run: dotnet build --configuration Release --no-restore   # ← Release qo'shildi
 
       - name: Pack
-        run: dotnet pack --no-build --output ./artifacts
+        run: dotnet pack --configuration Release --no-build --output ./artifacts  # ← Release qo'shildi
 
       - name: Publish to GitHub Packages
         run: dotnet nuget push ./artifacts/*.nupkg --source github --api-key ${{ secrets.GITHUB_TOKEN }}
