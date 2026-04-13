@@ -1,3 +1,10 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".github/workflows/build.yml" />
+    <File Path=".gitignore" />
+    <File Path="nuget.config" />
+    <File Path="README.md" />
+  </Folder>
   <Project Path="QueryForge/QueryForge.csproj" Id="9361806d-c820-415d-aa8e-0a3a513cf2a0" />
 </Solution>
