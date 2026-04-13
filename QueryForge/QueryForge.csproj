@@ -12,7 +12,6 @@
     <Description>Dynamic LINQ query builder for EF Core</Description>
     <PackageTags>linq;efcore;dynamic;filter;sorting</PackageTags>
     <PackageProjectUrl>https://github.com/davronbekxabibullayev/query-forge</PackageProjectUrl>
-    <PackageIcon>icon.png</PackageIcon>
     <RepositoryUrl>https://github.com/davronbekxabibullayev/query-forge.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
